@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css positions</title>
+<!-- <link rel="stylesheet" href="CssPositionss.css"> -->
+
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&family=Poppins:wght@300&display=swap');
+        *{
+            font-family:'Poppins', sans-serif; 
+        }
+    
+    .content image{
+        height: 100px;
+        width: 100px;
+        height: 100vh;
+    }
+    .nav-bar{
+        box-shadow: 0px 2px 10px rgb(21, 20, 20);
+        z-index:1;
+        margin: 0px 0px;
+
+        border: 5px;
+    }
+    .nav-list{
+        list-style: none;
+        padding: 20px 0px ;
+        vertical-align:middle;
+    }
+    .nav-item{
+        display: inline-block;
+        text-decoration: none;
+        margin: 0px 20px;
+    }
+    .nav-link{
+        text-decoration: none;
+        color: rgb(92, 95, 95);
+        
+        font-weight:bold;
+    }
+    .nav-link:hover{
+        font-size: larger;
+        color: black;
+        cursor: pointer;
+
+    }
+    .image img{
+        height: 200px;
+        width: 200px;
+    }
+
+    article h1{
+        font-size: 40px;
+    }
+
+    .content{
+        background: linear-gradient(#e66456 ,#9198e5);
+        padding: 10px 80px;
+        margin: 0px 0px;
+    }
+    .content section{
+        margin: 100px;
+    }
+    .float-right{
+        float: right;
+        margin: 50px;
+    }
+
+    .float-left{
+        float: left;
+        margin: 50px;
+    }
+    .bot-icon img{
+
+        height: 100px;
+        width:100px;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+</style>
+
+
+</head>
+
+
+
+<body class="body">
+<!-- header>nav.nav-bar>ul.nav-list>li.nav-item*4 -->
+    <header>
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li  class="nav-item" >
+                        <a href="#" class="nav-link">Catagoy</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="#" class="nav-link">Books</a>
+                    </li>
+                    <li  class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- content -->
+
+    <!-- main.content>section>(div.image>img)+(article>h1+p) -->
+    
+    <main class="content">
+
+        <section>
+            <div class="image float-right">
+                <img src="/NoBackgroundIMAGE/5847f5bdcef1014c0b5e489c.png" alt=""></div>
+            <article>
+                <h1>Html</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos, enim ipsum qui, doloremque laudantium vero nesciunt in esse, beatae quibusdam sed eius voluptatibus illo ab quas obcaecati iusto veniam accusamus.
+                Amet eos eius magni commodi illum totam dolor voluptatum ipsum harum corporis dolore beatae placeat exercitationem obcaecati at eveniet, dicta hic aliquid quam. Cumque nostrum impedit ad magnam. Distinctio, repudiandae!
+                Eius culpa tempora a distinctio harum? Distinctio suscipit architecto harum impedit earum itaque maxime odit, veniam exercitationem quibusdam magni nisi quo, aperiam, non commodi possimus eos ullam dolor. Labore, aperiam!</p>
+            </article>
+        </section>
+
+
+        <section>
+            <div class="image float-left"><img src="/NoBackgroundIMAGE/1_wPyIMy2zYnQclkmQg6Plgg.png" alt=""></div>
+            <article>
+                <h1>Css</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus dolor corrupti repellendus, excepturi, blanditiis explicabo distinctio maiores qui, beatae amet aut nisi similique aliquid quam? Recusandae praesentium facere exercitationem iusto?
+                Iure, magni? Architecto eveniet quam neque ab ipsum impedit laudantium aspernatur? Dicta doloribus eius non veritatis obcaecati voluptates quasi, labore voluptatum et deserunt repellendus vero dolor tempora ut provident quia?</p>
+            </article>
+        </section>
+
+
+        <section>
+            <div class="image float-right"><img src="/NoBackgroundIMAGE/javascript-logo.png" alt=""></div>
+            <article>
+                <h1>Java Script</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste incidunt corporis esse mollitia porro, et nam aliquid quae aut consectetur excepturi ex culpa debitis cum a atque officiis repellat tempore.
+                Molestias suscipit ex atque soluta nihil, labore sapiente impedit esse deserunt enim nostrum ab natus quaerat dolore voluptate! Libero fugit exercitationem reiciendis enim soluta voluptas et quam veniam distinctio optio.</p>
+            </article>
+        </section>
+    
+            <div class="bot-icon">
+                <img src="/NoBackgroundIMAGE/2040946.png" alt=""></div>
+        
+
+
+
+
+        <h1>&#169; suman pakira</h1>
+            <div>
+                <a href="https://www.linkedin.com/in/suman-pakira-653195260/" target="blank">link to linkdin</a>
+            </div>
+        
+        <h2>hello mom</h2>
+
+
+
+    </main>
+    </html>
+    
+    
+</body>

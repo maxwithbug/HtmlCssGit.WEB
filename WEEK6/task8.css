@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+
+}
+body{
+    background-color: rgb(42, 56, 71);
+}
+.main-box{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    
+    
+}
+.box-2{
+    height: 250px;
+    border: 2px solid red;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.image-div-1{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 4;
+    margin-right: 550px;
+    
+}
+.image-div-2{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 3;
+    margin-right: 200px;
+    
+    
+}
+
+.image-div-3{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 2;
+    margin-left:150px;
+    
+}
+
+.image-div-4{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    margin-left:500px;
+    
+}
+img{
+    height: 200px;
+    width: 200px;
+    
+}
+.image1{
+    
+    right: 2px;
+    
+}
+
+.image2{
+    
+    width: 300px;
+    background-position: center;
+}
+.image3{
+    
+}
+.image4{
+    
+    width: 300px;
+}
+

@@ -1,0 +1,38 @@
+.ullist{
+    list-style: none;
+    
+}
+.list-itemm{
+    margin-top: 34px;
+}
+.ullist-2{
+    list-style: none;
+    width: 50%; 
+}
+.headingg{
+    border: 2px sold #fff700;
+    height: 80px;
+    width: 300px;
+    
+}
+.tableee{
+    display: flex;
+    
+    
+}
+.itemm{
+    height: 350px;
+    width: 400px;
+   
+    margin: 60px;
+    margin-right:0px;
+    
+}
+.itemm-2{
+    height: 350px;
+    width: 350px;
+   
+    margin: 60px;
+    margin-left: 0px;
+
+}
