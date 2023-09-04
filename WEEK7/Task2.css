@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.main-box{
+    display: grid;
+    /* grid-template-columns: repeat( 3 , 1fr); */
+    grid-template-columns: 900px 500px auto;
+    grid-template-rows: repeat(1 , 1fr);
+}
+.box{
+    /* border: 1px solid black; */
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-content: center
+}
+.item3{
+    background: yellow;
+}
+
+
+.box-2{
+
+    width: 600px;
+    height: 400px;
+    /* margin-top: 200px;
+    margin-left: 100px; */
+}
+p{
+    margin-top: 50px;
+}
+button{
+    margin-top: 40px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.box-2>h1{
+    font-weight: 900;
+}
+
+img{
+    height: 100vh;
+    width: auto;
+}
+
+
+
+.nav{
+    height: 50px;
+    width: 100%;
+    display: grid;
+    
+    grid-template-columns: repeat(3 , 1fr);
+    justify-content: space-evenly;
+    
+    align-items: center;
+    
+    
+}
+.link{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    justify-items: center;
+    
+}
+
+.nav-button{
+    background-color: rgb(0, 255, 30);
+    color: black;
+    font-weight: 900;
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-right: 10px;
+    justify-self: end;
+}
+a{
+    text-decoration: none;
+    color: black
+}
+
+.nav>img{
+    height: 40px;
+    margin-left: 10px;
+}
