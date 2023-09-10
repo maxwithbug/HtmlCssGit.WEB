@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center; 
+    background-image: linear-gradient(to top  , rgb(122, 0, 236) , rgb(102, 60, 255) , aqua);
+    color: white;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    margin-top: 20px;
+    letter-spacing: 20px;
+}
