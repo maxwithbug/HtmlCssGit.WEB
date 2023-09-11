@@ -189,6 +189,8 @@ footer{
         background-color: #fff;
         display: flex;
         flex-direction: column;
+        text-align: center;
+        justify-content: center;
         align-items: start;
     }
     
