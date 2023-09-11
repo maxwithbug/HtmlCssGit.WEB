@@ -1,4 +1,7 @@
 Task1 : done
 Task2 : done
 TAsk3 : done
-Task4 :
+Task4 : done 
+Task5 : done
+Task6 : done
+Task7 :
