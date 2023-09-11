@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    border: 20px solid rgb(218, 218, 218);
+    border-radius: 50%;
+    border-top: 20px solid rgb(79, 40, 209);
+    animation: loding 1s linear infinite ;
+
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes loding {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
