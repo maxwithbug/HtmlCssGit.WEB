@@ -49,6 +49,7 @@ button{
     border-radius: 8px;
     background-image: linear-gradient(to right , aqua , rgb(8, 255, 78));
     font-size: 15px;
+    border: none;
 }
 
 .box:hover,.box:focus{
